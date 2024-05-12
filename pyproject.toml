@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "snow-bench"
 version = "0.1.0"
-description = "Try snow-bench for Snowflake batch query automation."
+description = "Try snow-bench for batch querying Automation on Snowflake."
 authors = ["wangzhiwei <noparking188@gmail.com>"]
 license = "MIT"
 readme = "README.md"
