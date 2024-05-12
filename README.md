@@ -2,6 +2,8 @@
 
 Try _snow-bench_ for batch querying **Automation** on **Snowflake**.
 
+Preview online: https://snowbench.streamlit.app/
+
 ![snow-bench Screenshot](./pics/screenshot.png)
 
 ### Deployment Steps
