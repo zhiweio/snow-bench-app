@@ -1,5 +1,6 @@
 import os
 import re
+import subprocess
 import tempfile
 import time
 import uuid
@@ -8,6 +9,9 @@ from typing import overload, Union
 
 import pandas as pd
 from playwright.sync_api import sync_playwright, Page, Locator
+
+# install browser plugins
+subprocess.check_call(["playwright", "install"])
 
 RUN_QUERY_WAIT_TIME = 5 * 60 * 1000
 

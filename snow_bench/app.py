@@ -12,7 +12,7 @@ import pandas as pd
 import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
-from snow_bench.utils import check_browser_available, SnowFlakeRunner, query_and_download
+from utils import check_browser_available, SnowFlakeRunner, query_and_download
 
 CACHE_PATH = Path(".snow")
 CACHE_QUERY_RESULT_PATH = CACHE_PATH / "query_results"
